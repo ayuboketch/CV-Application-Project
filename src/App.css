@@ -1,0 +1,128 @@
+#root {
+  /* border: 1px solid red; */
+  max-width: auto;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.header {
+  align-items: center;
+  /* border: 1px solid red; */
+  margin-top: 0;
+  min-width: 700px;
+  width: auto;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.header__title,
+.header__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  border: 1px solid gray;
+  max-width: 1280px;
+  min-width: 300px;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first__div,
+.second__div,
+.third__div,
+.fourth__div {
+  width: auto;
+  display: flex;
+  /* border: 1px solid red; */
+  /* padding: 20px; */
+}
+.main__name,
+.main__title,
+.main__email,
+.main__phone {
+  width: 50%;
+  padding: 10px;
+}
+.main__address {
+  /* border: 1px solid gray; */
+  width: 100%;
+}
+
+.input_area3 {
+  min-width: 300px;
+  max-width: 700px;
+  width: 92%;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+.fourth__div > textarea {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+.input_area {
+  min-width: 300px;
+  max-width: 700px;
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+h3 {
+  text-align: left;
+  margin-left: 20px;
+}
+.text_area {
+  min-width: 500px;
+  max-width: 700px;
+  width: 130%;
+  height: 300px;
+  border-radius: 10px;
+  border: none;
+  margin: 20px;
+}
